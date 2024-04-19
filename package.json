@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "app.js",
+  "main": "index.js",
   "author": "",
   "license": "ISC",
   "scripts": {
     "test": "jest -i",
-    "server": "nodemon ./src/index.js",
+    "dev": "nodemon ./src/index.js",
     "start": "node index.js"
   },
   "jest": {
