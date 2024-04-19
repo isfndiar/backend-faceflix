@@ -6,5 +6,12 @@
       "status": 200,
       "headers": { "Content-Type": "text/html" }
     }
+  ],
+  "version": 2,
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
   ]
 }

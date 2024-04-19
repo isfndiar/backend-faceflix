@@ -8,8 +8,8 @@
   "license": "ISC",
   "scripts": {
     "test": "jest -i",
-    "dev": "nodemon ./src/application/app.js",
-    "start": "node src/application/app.js"
+    "server": "nodemon ./src/index.js",
+    "start": "node src/index.js"
   },
   "jest": {
     "transform": {
