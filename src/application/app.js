@@ -38,7 +38,7 @@ app.use(
 app.use("/public/user/image/", express.static("./public/post-image"));
 app.use("/public/user/video/", express.static("./public/post-video"));
 app.get("/", (req, res) => {
-  res.send("Express JS on Vercel");
+  res.redirect("/api/docs");
 });
 app.use(apiPublic);
 app.use(api);
