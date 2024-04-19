@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest -i",
     "server": "nodemon ./src/index.js",
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "jest": {
     "transform": {
